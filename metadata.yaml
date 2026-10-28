@@ -1,0 +1,21 @@
+name: astrbot_plugin_companion_admin
+display_name: 陪伴自我管理
+author: SuHoKUO
+version: 0.1.0
+desc: 让陪伴类 Bot 在管理员私聊里用自然语言查看和修改自己的人格、用户风格、群白名单和 TTS；所有写入先提案、确认后执行，并带快照与回滚。
+astrbot_version: ">=4.22.0"
+repo: "https://github.com/SuHoKUO/astrbot_plugin_companion_admin"
+icon: logo.png
+tags:
+  - 陪伴
+  - 管理员
+  - 自我管理
+  - 人格
+  - TTS
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - wecom
+  - lark
+  - dingtalk

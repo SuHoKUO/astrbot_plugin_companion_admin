@@ -1,0 +1,17 @@
+{
+  "admin_ids": {
+    "description": "允许使用自我管理工具的管理员用户 ID（AstrBot 的 admins_id 也会自动生效；建议至少填一个）",
+    "type": "list",
+    "default": []
+  },
+  "persona_id": {
+    "description": "要管理的人格 ID",
+    "type": "string",
+    "default": "大肥鱼"
+  },
+  "companion_plugin": {
+    "description": "陪伴插件目录名",
+    "type": "string",
+    "default": "astrbot_plugin_private_companion"
+  }
+}
